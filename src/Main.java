@@ -213,10 +213,20 @@ public class Main {
 
          /* 13- write a java program:
         ask the user to input string and print the length for that*/
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
         int length = input.length();
-        System.out.println("The length of the string is: " + length);
+        System.out.println("The length of the string is: " + length);*/
+
+
+
+        /* 14- write a java program:
+        ask the user to input number and get the absolute value*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        double number = scanner.nextDouble();
+        double absoluteValue = Math.abs(number);
+        System.out.println("The absolute value of the number is: " + absoluteValue);
     }
 }
