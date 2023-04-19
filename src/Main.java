@@ -115,7 +115,7 @@ public class Main {
 
          /* write a java program:
         ask the user to input 2 numbers then return the remainder and the result */
-        Scanner input = new Scanner(System.in);
+        /*Scanner input = new Scanner(System.in);
         System.out.println("Enter number 1:");
         int num1 = input.nextInt();
         System.out.println("Enter number 2:");
@@ -123,6 +123,23 @@ public class Main {
         int division=0, remainder=0;
         division = num1/num2;
         remainder = num1%num2;
-        System.out.printf("the result is :%d\nthe remainder is :%d",division , remainder);
+        System.out.printf("the result is :%d\nthe remainder is :%d",division , remainder);*/
+
+
+
+        /* write a java program:
+        that change two variables values */
+        Scanner input = new Scanner(System.in);
+        int a =0, b=0;
+        System.out.println("Enter a number:");
+        a = input.nextInt();
+        System.out.println("Enter b number:");
+        b = input.nextInt();
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.printf("a=%d \nb=%d",a, b);
     }
 }
