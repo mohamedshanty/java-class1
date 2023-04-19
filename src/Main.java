@@ -181,12 +181,22 @@ public class Main {
 
         /* 10- write a java program:
         ask the user to input two for rectangle and get the area*/
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the length of the rectangle: ");
         double length = scanner.nextDouble();
         System.out.print("Enter the width of the rectangle: ");
         double width = scanner.nextDouble();
         double area = length * width;
-        System.out.println("The area of the rectangle is: " + area);
+        System.out.println("The area of the rectangle is: " + area);*/
+
+
+
+        /* 11- write a java program:
+        ask the user to input the radius and print the area*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the radius of the circle: ");
+        double radius = scanner.nextDouble();
+        double area = Math.PI * radius * radius;
+        System.out.println("The area of the circle is: " + area);
     }
 }
