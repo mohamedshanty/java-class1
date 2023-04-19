@@ -1,3 +1,5 @@
+import javax.swing.*;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -45,13 +47,37 @@ public class Main {
 
          /* 4- write a java program:
         ask the user to input a number and print if it odd or even */
-        Scanner input = new Scanner(System.in);
+        /*Scanner input = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int number = input.nextInt();
         if (number%2 == 0)
             System.out.println("your number is even");
         else {
             System.out.println("your number is odd");
+        }*/
+
+
+
+         /* 5- write a java program:
+        ask the user to input the username, if the user name is true, let him to enter the
+        password, and if the password is true print “Hello”*/
+        int attempt = 0;
+        String userName = "mohamed._.sh27";
+        String password = "123";
+        String userNameEntered;
+        String passwordEntered;
+        userNameEntered = (JOptionPane.showInputDialog("Please enter the username"));
+        if (Objects.equals(userNameEntered, userName)){
+            passwordEntered = (JOptionPane.showInputDialog("Please enter the password"));
+            if (Objects.equals(passwordEntered, password)){
+                JOptionPane.showMessageDialog(null , "Hello");
+            }
+            else {
+                JOptionPane.showMessageDialog(null , "your username or password is error");
+            }
+        }
+        else {
+            JOptionPane.showMessageDialog(null , "your username error");
         }
     }
 }
