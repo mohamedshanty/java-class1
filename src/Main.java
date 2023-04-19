@@ -223,10 +223,25 @@ public class Main {
 
         /* 14- write a java program:
         ask the user to input number and get the absolute value*/
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         double number = scanner.nextDouble();
         double absoluteValue = Math.abs(number);
-        System.out.println("The absolute value of the number is: " + absoluteValue);
+        System.out.println("The absolute value of the number is: " + absoluteValue);*/
+
+
+
+         /*write a java program:
+        ask the user to input value and determine if it positive or negative and print zero if its 0*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        double number = scanner.nextDouble();
+        if (number > 0) {
+            System.out.println("The number is positive.");
+        } else if (number < 0) {
+            System.out.println("The number is negative.");
+        } else {
+            System.out.println("The number is zero.");
+        }
     }
 }
