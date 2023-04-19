@@ -193,10 +193,20 @@ public class Main {
 
         /* 11- write a java program:
         ask the user to input the radius and print the area*/
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the radius of the circle: ");
         double radius = scanner.nextDouble();
         double area = Math.PI * radius * radius;
-        System.out.println("The area of the circle is: " + area);
+        System.out.println("The area of the circle is: " + area);*/
+
+
+
+        /* 12- write a java program:
+        ask the user to input the shape for cube and print the volume*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the side length of the cube: ");
+        double sideLength = scanner.nextDouble();
+        double volume = sideLength * sideLength * sideLength;
+        System.out.println("The volume of the cube is: " + volume);
     }
 }
