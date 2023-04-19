@@ -231,9 +231,9 @@ public class Main {
 
 
 
-         /*write a java program:
+         /* 15- write a java program:
         ask the user to input value and determine if it positive or negative and print zero if its 0*/
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         double number = scanner.nextDouble();
         if (number > 0) {
@@ -242,6 +242,40 @@ public class Main {
             System.out.println("The number is negative.");
         } else {
             System.out.println("The number is zero.");
+        }*/
+
+
+
+        /* 16- write a java program:
+        ask the user to input number then generates an integer between 1 and 7 and displays
+        the name of the weekday*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+        String weekdayName = "";
+        switch (number) {
+            case 1:
+                weekdayName = "Sunday";
+                break;
+            case 2:
+                weekdayName = "Monday";
+                break;
+            case 3:
+                weekdayName = "Tuesday";
+                break;
+            case 4:
+                weekdayName = "Wednesday";
+                break;
+            case 5:
+                weekdayName = "Thursday";
+                break;
+            case 6:
+                weekdayName = "Friday";
+                break;
+            case 7:
+                weekdayName = "Saturday";
+                break;
         }
+        System.out.println("The weekday corresponding to the generated number is: " + weekdayName);
     }
 }
