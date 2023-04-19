@@ -82,7 +82,7 @@ public class Main {
 
 
 
-        /*write a java program:
+        /* 6- write a java program:
         ask the user to input two number than choose the operation and apply it*/
         /*Scanner input = new Scanner(System.in);
         System.out.println("Enter number 1:");
@@ -113,7 +113,7 @@ public class Main {
 
 
 
-         /* write a java program:
+         /* 7- write a java program:
         ask the user to input 2 numbers then return the remainder and the result */
         /*Scanner input = new Scanner(System.in);
         System.out.println("Enter number 1:");
@@ -127,7 +127,7 @@ public class Main {
 
 
 
-        /* write a java program:
+        /* 8- write a java program:
         that change two variables values */
         /*Scanner input = new Scanner(System.in);
         int a =0, b=0;
@@ -144,11 +144,11 @@ public class Main {
 
 
 
-        /* write a java program:
+        /* 9- write a java program:
         the user input a string ( sa, su , mo , tu, we, th, fr)
         if the input sa : print Saturday, if the input su : print Sunday
         if the input mo : print Monday ..... to end */
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string (sa, su, mo, tu, we, th, fr): ");
         String input = scanner.nextLine();
         switch (input) {
@@ -175,6 +175,18 @@ public class Main {
                 break;
             default:
                 System.out.println("Invalid input.");
-        }
+        }*/
+
+
+
+        /* 10- write a java program:
+        ask the user to input two for rectangle and get the area*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the length of the rectangle: ");
+        double length = scanner.nextDouble();
+        System.out.print("Enter the width of the rectangle: ");
+        double width = scanner.nextDouble();
+        double area = length * width;
+        System.out.println("The area of the rectangle is: " + area);
     }
 }
