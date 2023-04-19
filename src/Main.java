@@ -61,7 +61,7 @@ public class Main {
          /* 5- write a java program:
         ask the user to input the username, if the user name is true, let him to enter the
         password, and if the password is true print “Hello”*/
-        int attempt = 0;
+        /*int attempt = 0;
         String userName = "mohamed._.sh27";
         String password = "123";
         String userNameEntered;
@@ -78,6 +78,41 @@ public class Main {
         }
         else {
             JOptionPane.showMessageDialog(null , "your username error");
-        }
+        }*/
+
+
+
+        /*write a java program:
+        ask the user to input two number than choose the operation and apply it*/
+        /*Scanner input = new Scanner(System.in);
+        System.out.println("Enter number 1:");
+        int num1 = input.nextInt();
+        System.out.println("Enter number 2:");
+        int num2 = input.nextInt();
+
+        System.out.println("1- +");
+        System.out.println("2- -");
+        System.out.println("3- *");
+        System.out.println("4- /");
+        System.out.println("Enter your choose");
+        int choose = input.nextInt();
+        switch (choose){
+            case 1:
+                System.out.println(num1+num2);
+                break;
+            case 2:
+                System.out.println(num1-num2);
+                break;
+            case 3:
+                System.out.println(num1*num2);
+                break;
+            case 4:
+                System.out.println(num1/num2);
+                break;
+        }*/
+
+
+
+
     }
 }
