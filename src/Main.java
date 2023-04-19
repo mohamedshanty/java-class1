@@ -305,7 +305,7 @@ public class Main {
 
           /* 18- write a java program:
         ask the user to input 3 values and compare which is max and min value*/
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the first value: ");
         int value1 = scanner.nextInt();
         System.out.print("Enter the second value: ");
@@ -328,6 +328,16 @@ public class Main {
             minValue = value3;
         }
         System.out.println("The maximum value is: " + maxValue);
-        System.out.println("The minimum value is: " + minValue);
+        System.out.println("The minimum value is: " + minValue);*/
+
+
+
+
+        /*write a java program:
+        ask the user to input character and print it*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a character: ");
+        char ch = scanner.next().charAt(0);
+        System.out.println("You entered: " + ch);
     }
 }
