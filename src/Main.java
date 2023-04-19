@@ -27,7 +27,7 @@ public class Main {
          /*3- write a java program:
         ask the user to input 4 numbers and print the average and the sum
         without using arrays */
-        Scanner input = new Scanner(System.in);
+        /*Scanner input = new Scanner(System.in);
         System.out.println("Enter your first number:");
         int a = input.nextInt();
         System.out.println("Enter your second number:");
@@ -38,6 +38,20 @@ public class Main {
         int d = input.nextInt();
         int sum = a + b + c + d;
         int average = (a + b + c + d)/4;
-        System.out.println("the sum is: " + sum + " the average is: " + average);
+        System.out.println("the sum is: " + sum + " the average is: " + average);*/
+
+
+
+
+         /* 4- write a java program:
+        ask the user to input a number and print if it odd or even */
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int number = input.nextInt();
+        if (number%2 == 0)
+            System.out.println("your number is even");
+        else {
+            System.out.println("your number is odd");
+        }
     }
 }
