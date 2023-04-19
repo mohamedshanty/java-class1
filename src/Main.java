@@ -113,6 +113,16 @@ public class Main {
 
 
 
-
+         /* write a java program:
+        ask the user to input 2 numbers then return the remainder and the result */
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter number 1:");
+        int num1 = input.nextInt();
+        System.out.println("Enter number 2:");
+        int num2 = input.nextInt();
+        int division=0, remainder=0;
+        division = num1/num2;
+        remainder = num1%num2;
+        System.out.printf("the result is :%d\nthe remainder is :%d",division , remainder);
     }
 }
