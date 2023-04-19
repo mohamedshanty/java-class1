@@ -203,10 +203,20 @@ public class Main {
 
         /* 12- write a java program:
         ask the user to input the shape for cube and print the volume*/
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the side length of the cube: ");
         double sideLength = scanner.nextDouble();
         double volume = sideLength * sideLength * sideLength;
-        System.out.println("The volume of the cube is: " + volume);
+        System.out.println("The volume of the cube is: " + volume);*/
+
+
+
+         /* 13- write a java program:
+        ask the user to input string and print the length for that*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String input = scanner.nextLine();
+        int length = input.length();
+        System.out.println("The length of the string is: " + length);
     }
 }
