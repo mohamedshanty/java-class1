@@ -282,7 +282,7 @@ public class Main {
 
         /* 17- write a java program:
         ask the user to input a year number than print whether that year is a leap year or not*/
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a year: ");
         int year = scanner.nextInt();
 
@@ -298,6 +298,36 @@ public class Main {
             }
         } else {
             System.out.println(year + " is not a leap year.");
+        }*/
+
+
+
+
+          /* 18- write a java program:
+        ask the user to input 3 values and compare which is max and min value*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the first value: ");
+        int value1 = scanner.nextInt();
+        System.out.print("Enter the second value: ");
+        int value2 = scanner.nextInt();
+        System.out.print("Enter the third value: ");
+        int value3 = scanner.nextInt();
+        int maxValue = value1;
+        if (value2 > maxValue) {
+            maxValue = value2;
         }
+        if (value3 > maxValue) {
+            maxValue = value3;
+        }
+
+        int minValue = value1;
+        if (value2 < minValue) {
+            minValue = value2;
+        }
+        if (value3 < minValue) {
+            minValue = value3;
+        }
+        System.out.println("The maximum value is: " + maxValue);
+        System.out.println("The minimum value is: " + minValue);
     }
 }
