@@ -333,11 +333,46 @@ public class Main {
 
 
 
-        /*write a java program:
+        /* 19- write a java program:
         ask the user to input character and print it*/
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a character: ");
         char ch = scanner.next().charAt(0);
-        System.out.println("You entered: " + ch);
+        System.out.println("You entered: " + ch);*/
+
+
+
+
+        /* 20- write a java program:
+        Bmi calculator
+        ask the user to input his weight (kilogram) and the height (meter)
+        bmi = (weight) / (height*height)
+        if the bmi smaller than or equal 20
+        print you should increase the weight
+        if the bmi gratter than 20 and less than or equal 25
+        print perfect weight
+        if the bmi gratter than 25 and less than or equal 30
+        print you should lose some weight
+        anything else print overload*/
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter your weight in kilograms: ");
+        double weight = scanner.nextDouble();
+
+        System.out.print("Enter your height in meters: ");
+        double height = scanner.nextDouble();
+
+        double bmi = weight / (height * height);
+
+        if (bmi <= 20) {
+            System.out.println("You should increase your weight.");
+        } else if (bmi > 20 && bmi <= 25) {
+            System.out.println("Perfect weight.");
+        } else if (bmi > 25 && bmi <= 30) {
+            System.out.println("You should lose some weight.");
+        } else {
+            System.out.println("Overload.");
+        }
     }
 }
