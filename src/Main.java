@@ -249,7 +249,7 @@ public class Main {
         /* 16- write a java program:
         ask the user to input number then generates an integer between 1 and 7 and displays
         the name of the weekday*/
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
         String weekdayName = "";
@@ -276,6 +276,28 @@ public class Main {
                 weekdayName = "Saturday";
                 break;
         }
-        System.out.println("The weekday corresponding to the generated number is: " + weekdayName);
+        System.out.println("The weekday corresponding to the generated number is: " + weekdayName);*/
+
+
+
+        /* 17- write a java program:
+        ask the user to input a year number than print whether that year is a leap year or not*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a year: ");
+        int year = scanner.nextInt();
+
+        if (year % 4 == 0) {
+            if (year % 100 == 0) {
+                if (year % 400 == 0) {
+                    System.out.println(year + " is a leap year.");
+                } else {
+                    System.out.println(year + " is not a leap year.");
+                }
+            } else {
+                System.out.println(year + " is a leap year.");
+            }
+        } else {
+            System.out.println(year + " is not a leap year.");
+        }
     }
 }
