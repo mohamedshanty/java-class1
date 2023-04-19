@@ -129,7 +129,7 @@ public class Main {
 
         /* write a java program:
         that change two variables values */
-        Scanner input = new Scanner(System.in);
+        /*Scanner input = new Scanner(System.in);
         int a =0, b=0;
         System.out.println("Enter a number:");
         a = input.nextInt();
@@ -140,6 +140,41 @@ public class Main {
         b = a - b;
         a = a - b;
 
-        System.out.printf("a=%d \nb=%d",a, b);
+        System.out.printf("a=%d \nb=%d",a, b);*/
+
+
+
+        /* write a java program:
+        the user input a string ( sa, su , mo , tu, we, th, fr)
+        if the input sa : print Saturday, if the input su : print Sunday
+        if the input mo : print Monday ..... to end */
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string (sa, su, mo, tu, we, th, fr): ");
+        String input = scanner.nextLine();
+        switch (input) {
+            case "sa":
+                System.out.println("Saturday");
+                break;
+            case "su":
+                System.out.println("Sunday");
+                break;
+            case "mo":
+                System.out.println("Monday");
+                break;
+            case "tu":
+                System.out.println("Tuesday");
+                break;
+            case "we":
+                System.out.println("Wednesday");
+                break;
+            case "th":
+                System.out.println("Thursday");
+                break;
+            case "fr":
+                System.out.println("Friday");
+                break;
+            default:
+                System.out.println("Invalid input.");
+        }
     }
 }
